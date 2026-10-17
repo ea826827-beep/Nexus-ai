@@ -1,0 +1,8 @@
+flask
+flask-cors
+gunicorn
+torch
+transformers
+accelerate
+pypdf
+ddgs
