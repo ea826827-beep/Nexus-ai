@@ -1,9 +1,9 @@
 Flask
-flask-cors
+Flask-Cors
+Flask-SQLAlchemy
+Flask-Login
+Authlib
+python-dotenv
 gunicorn
 pypdf
 huggingface_hub
-Flask-Login
-Flask-SQLAlchemy
-Authlib
-python-dotenv
