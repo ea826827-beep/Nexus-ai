@@ -18,7 +18,7 @@ app.config["MAX_CONTENT_LENGTH"] = 10 * 1024 * 1024
 groq_api_key = os.environ.get("GROQ_API_KEY")
 client = Groq(api_key=groq_api_key) if groq_api_key else None
 
-MODEL_NAME = "llama-3.1-8b-instant"  # অত্যন্ত দ্রুতগতির এবং চমৎকার মডেল
+MODEL_NAME = "llama-3.3-70b-versatile" # অত্যন্ত দ্রুতগতির এবং চমৎকার মডেল
 UPLOAD_DIR = "uploaded_pdfs"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
