@@ -7,4 +7,4 @@ pypdf
 huggingface-hub
 python-dotenv
 gunicorn
-psycopg2-binary
+psycopg[binary]
