@@ -1,0 +1,7 @@
+Flask
+Flask-Cors
+gunicorn
+transformers
+torch
+pypdf
+safetensors
